@@ -1,0 +1,122 @@
+/* 
+    Document   : style.css
+    Created on : Jul 7, 2011, 5:40:31 PM
+    Author     : Hila
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body, div, ul, li,p {
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after { 
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden; } /* Controls the BR tag, which makes the WRAPPER float stretch for GECKO */
+
+.clearfix {
+    display: inline-block; 
+}
+
+* html .clearfix { 
+    height: 1%; 
+}
+
+body { 
+    font-family: Arial;
+
+    font-size:  8pt;
+
+    padding-left: 20px;
+
+    padding-top: 20px;
+}
+
+.main {
+    display: block;
+}
+
+.form { 
+    float: left; 
+    width: 200px;
+}
+
+.form label {
+    display: block;
+}
+
+.form input {
+    width: 180px;
+}
+
+.form button {
+    font-family: Arial;
+    
+    font-size: 8pt;
+}
+
+.warning label{
+    color: red;
+}
+
+#search_param {
+    width: 120px;
+}
+
+.results {
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    width: 70%;
+    display: none;
+
+}
+.results ul {
+    padding-left: 0px;
+
+}
+
+.results li {
+    border-bottom-width: 1px;
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.results li:last-child {
+    border:0;
+}
+
+.results img {
+    float: left;
+    width: 72px;
+    height: 54px;
+    margin-right: 15px;
+}
+
+.resultsTextContainer {
+    float: left;
+    width: 80%
+}
+#nextPage {
+    display: none;
+}
+#previousPage {
+    display: none;
+}
+
