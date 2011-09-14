@@ -163,17 +163,17 @@
             <div class="form">
                 <label>Partner ID:</label>
                 <br/>
-                <input type="text" name="partner_id" id="partner_id" value="309"/>
+                <input type="text" name="partner_id" id="partner_id" value="309" style="display:none"/>
             </div>
-            <div class="form">
+            <!-- //Not tested div class="form">
                 <label>Categories:</label>
                  <br/>
-                <input type="text" name="categories" id="categories"/>
-            </div>
+                <input type="text" name="categories" id="categories" style="display:none"/>
+            </div -->
             <div class="form">
                 <label>Entry ID:</label>
                  <br/>
-                <input type="text" name="entry_id" id="entry_id" value="1_gdmcbimk"/>
+                <input type="text" name="entry_id" id="entry_id" value="1_gdmcbimk" style="display:none"/>
             </div>
             <div class="form">
                 <label><b>Search captions:</b></label>
